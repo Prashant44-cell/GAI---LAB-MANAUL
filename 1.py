@@ -25,3 +25,15 @@ for i, out in enumerate(outputs, 1):
     print(f"--- Generated Text {i} ---")
     print(out["generated_text"])
     print()
+
+
+
+
+
+echo "# GAI---LAB-MANAUL" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Prashant44-cell/GAI---LAB-MANAUL.git
+git push -u origin main
